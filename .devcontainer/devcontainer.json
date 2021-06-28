@@ -1,0 +1,18 @@
+{
+    "extensions": ["ms-vscode.cpptools", "ms-python.python", "MS-vsliveshare.vsliveshare-pack"],
+    "image": "cs50/codespace:latest",
+    "settings": {
+      "C_Cpp.autocomplete": "Disabled",
+      "C_Cpp.intelliSenseEngine": "Disabled",
+      "javascript.suggest.enabled": false,
+      "python.autoComplete.showAdvancedMembers": false,
+      "scm.countBadge": "off",
+      "terminal.integrated.profiles.linux": {
+        "bash (login)": {
+          "path": "bash",
+          "args": ["-l"]
+        }
+      },
+      "terminal.integrated.defaultProfile.linux": "bash (login)"
+    }
+}
